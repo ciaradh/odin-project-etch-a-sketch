@@ -1,19 +1,39 @@
 body {
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .Container {
-    margin: auto;
-    border: 1px solid red;
-    width: 640px;
-    height: 640px;
+    border: 20px solid beige;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
     display: flex;
     flex-wrap: wrap;
+}
+
+.Title {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding: 16px;
 }
 
 .Square {
     /* width: 20px;
     height: 20px; */
-    border: 1px solid black;
+    /* border: 1px solid lightgrey; */
     box-sizing: border-box;
+}
+
+.Wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.Sidebar {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
 }
